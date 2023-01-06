@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4);
+    text-align: center;
+    padding: 120px 20px 30px;
+    background-color: black;
+    width: 350px;
+    border-radius: 35px;
+    row-gap: 10px;
+}
+.calci{
+    grid-column-start: 1;
+    grid-column-end: 5; 
+}
+.calci1{
+    height: 2rem;
+    width: 20rem;;
+}
+.designac{
+    background-color: rgb(177, 177, 177);
+}
+.designdc{
+    background-color: rgb(177, 177, 177);
+}
+.designmod{
+    background-color: rgb(177, 177, 177);
+}
+.designbölü{
+    background-color: orange;
+    color: beige;
+}
+.designyedi{
+    background-color: rgb(73, 73, 73);
+    color:beige
+}
+.designsekiz{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+}
+.designdokuz{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+}
+.designçarpı{
+    background-color: orange;
+    color: beige;
+}
+.designdört{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+}
+.designbeş{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+}
+.designaltı{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+}
+.designeksi{
+    background-color: orange;
+    color: beige;
+}
+.designbir{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+}
+.designiki{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+}
+.designüç{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+}
+.designartı{
+    background-color: orange;
+    color: beige;
+}
+.sıfır{
+    grid-template-areas: sıfır;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+.nokta{
+    grid-template-areas: nokta;
+}
+.designnokta{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+}
+.designeşittir{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+}
+.btn{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.btn:hover{
+    background-color: bisque;
+    color:darkred;
+    cursor: pointer;
+}
+
+.designsıfır{
+    background-color: rgb(73, 73, 73);
+    color: beige;
+    width: 100%;
+    border-radius: 35px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ios Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calci">
+            <form name="form1" class="calci1" action="index.html" method="POST">
+                <input type="text" name="answer" id="display" style="width: 90%; height:100%; background-color:black; color:beige; border:none; font-size:30px;">
+        </div>
+        <div class="ac">
+            <input type="button" class="btn designac" value="AC" onclick="form1.answer.value=''" title="Hepsini sil">
+        </div>
+        <div class="dc">
+            <input type="button" class="btn designdc" value="C" onclick="form1.answer.value=form1.answer.value.substring(0, form1.answer.value.length*1-1)" title="Sil">
+
+        </div>
+        <div class="mod">
+            <input type="button" class="btn designmod" value="%" value="7" onclick="form1.answer.value +='%'" title="Mod">
+
+        </div>
+        <div class="bölü">
+            <input type="button" class="btn designbölü" value="÷" onclick="form1.answer.value +='/'" title="Bölü">
+
+        </div>
+        <div class="yedi">
+            <input type="button" class="btn designyedi" value="7" onclick="form1.answer.value +='7'" title="Yedi">
+
+        </div>
+        <div class="sekiz">
+            <input type="button" class="btn designsekiz" value="8" onclick="form1.answer.value +='8'" title="Sekiz">
+
+        </div>
+        <div class="dokuz">
+            <input type="button" class="btn designdokuz" value="9" onclick="form1.answer.value +='9'" title="Dokuz">
+
+        </div>
+        <div class="çarpı">
+            <input type="button" class="btn designçarpı" value="x" onclick="form1.answer.value +='*'" title="Çarpı">
+
+        </div>
+        <div class="dört">
+            <input type="button" class="btn designdört" value="4" onclick="form1.answer.value +='4'" title="Dört">
+
+        </div>
+        <div class="beş">
+            <input type="button" class="btn designbeş" value="5" onclick="form1.answer.value +='5'" title="Beş">
+
+        </div>
+        <div class="altı">
+            <input type="button" class="btn designaltı" value="6" onclick="form1.answer.value +='6'" title="Altı">
+
+        </div>
+        <div class="eksi">
+            <input type="button" class="btn designeksi" value="-" onclick="form1.answer.value +='-'" title="Eksi">
+
+        </div>
+        <div class="bir">
+            <input type="button" class="btn designbir" value="1" onclick="form1.answer.value +='1'" title="Bir">
+
+        </div>
+        <div class="iki">
+            <input type="button" class="btn designiki" value="2" onclick="form1.answer.value +='2'" title="İki">
+
+        </div>
+        <div class="üç">
+            <input type="button" class="btn designüç" value="3" onclick="form1.answer.value +='3'" title="Üç">
+
+        </div>
+        <div class="artı">
+            <input type="button" class="btn designartı" value="+" onclick="form1.answer.value +='+'" title="Artı">
+
+        </div>
+        <div class="sıfır">
+            <input type="button" class="btn designsıfır" value="0" onclick="form1.answer.value +='0'" title="Sıfır">
+
+        </div>
+        <div class="nokta">
+            <input type="button" class="btn designnokta" value="." onclick="form1.answer.value +='.'" title="Nokta">
+
+        </div>
+        <div class="eşittir">
+            <input type="button" class="btn designeşittir" value="=" onclick="form1.answer.value =eval(form1.answer.value)" title="Eşittir">
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
